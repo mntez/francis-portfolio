@@ -1,12 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Hero from "./components/HeroSection"
-import Loader from "./components/LoadingAnimation"
-import Description from "./components/DescriptionSection"
-import Projects from "./components/ProjectsSection"
-import Studio from "./components/StudioSection"
-import Contact from "./components/ContactSection"
+import Hero from "../components/HeroSection"
+import Loader from "../components/LoadingAnimation"
+import Description from "../components/DescriptionSection"
+import Projects from "../components/ProjectsSection"
+import Studio from "../components/StudioSection"
+import Contact from "../components/ContactSection"
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(true);

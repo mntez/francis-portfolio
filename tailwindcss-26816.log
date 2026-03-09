@@ -1,0 +1,91 @@
+2026-03-09T05:38:06.319334Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2026-03-09T05:38:06.320173Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio", pattern: "**/*", negated: false }
+2026-03-09T05:38:06.320841Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2026-03-09T05:38:06.320871Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio" }
+2026-03-09T05:38:06.322534Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.324248Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app"
+2026-03-09T05:38:06.324589Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components"
+2026-03-09T05:38:06.324749Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ContactSection.tsx"
+2026-03-09T05:38:06.324865Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\core"
+2026-03-09T05:38:06.325008Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\core\\in-view.tsx"
+2026-03-09T05:38:06.325093Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\DescriptionSection.tsx"
+2026-03-09T05:38:06.325155Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\HeroSection.tsx"
+2026-03-09T05:38:06.325243Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\LoadingAnimation.tsx"
+2026-03-09T05:38:06.325383Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ProjectsSection.tsx"
+2026-03-09T05:38:06.325455Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\StudioSection.tsx"
+2026-03-09T05:38:06.325565Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ui"
+2026-03-09T05:38:06.325724Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ui\\background-ripple-effect.tsx"
+2026-03-09T05:38:06.325926Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\globals.css"
+2026-03-09T05:38:06.326009Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\layout.tsx"
+2026-03-09T05:38:06.326115Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\page.tsx"
+2026-03-09T05:38:06.326206Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\eslint.config.mjs"
+2026-03-09T05:38:06.326278Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\next.config.js"
+2026-03-09T05:38:06.326340Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\next.config.ts"
+2026-03-09T05:38:06.326732Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\package.json"
+2026-03-09T05:38:06.326888Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\postcss.config.mjs"
+2026-03-09T05:38:06.327058Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public"
+2026-03-09T05:38:06.327355Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public\\fonts"
+2026-03-09T05:38:06.327614Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public\\fonts\\CALID.TTF"
+2026-03-09T05:38:06.327752Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public\\images"
+2026-03-09T05:38:06.328001Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\README.md"
+2026-03-09T05:38:06.328074Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\tailwind.config.ts"
+2026-03-09T05:38:06.328144Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\tsconfig.json"
+2026-03-09T05:38:06.328248Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.328258Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.328265Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.328271Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 19 file(s)
+2026-03-09T05:38:06.329053Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\postcss.config.mjs"
+2026-03-09T05:38:06.329063Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\DescriptionSection.tsx"
+2026-03-09T05:38:06.329063Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\page.tsx"
+2026-03-09T05:38:06.329077Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ContactSection.tsx"
+2026-03-09T05:38:06.329068Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\LoadingAnimation.tsx"
+2026-03-09T05:38:06.329081Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\next.config.js"
+2026-03-09T05:38:06.329150Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\StudioSection.tsx"
+2026-03-09T05:38:06.329162Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public\\fonts\\CALID.TTF"
+2026-03-09T05:38:06.329157Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\eslint.config.mjs"
+2026-03-09T05:38:06.329198Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ProjectsSection.tsx"
+2026-03-09T05:38:06.329192Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\core\\in-view.tsx"
+2026-03-09T05:38:06.329204Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\HeroSection.tsx"
+2026-03-09T05:38:06.329225Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\README.md"
+2026-03-09T05:38:06.329236Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\next.config.ts"
+2026-03-09T05:38:06.329258Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\tailwind.config.ts"
+2026-03-09T05:38:06.329285Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\tsconfig.json"
+2026-03-09T05:38:06.329280Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ui\\background-ripple-effect.tsx"
+2026-03-09T05:38:06.329302Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\package.json"
+2026-03-09T05:38:06.329312Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\layout.tsx"
+2026-03-09T05:38:06.329368Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.329421Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.329429Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.330094Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.330110Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.330117Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.330121Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-03-09T05:38:06.330207Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\globals.css"
+2026-03-09T05:38:06.330226Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.330234Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.330239Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.330349Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.330364Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.330705Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.331034Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.331046Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.333032Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app"
+2026-03-09T05:38:06.333226Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components"
+2026-03-09T05:38:06.333464Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\core"
+2026-03-09T05:38:06.333854Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ui"
+2026-03-09T05:38:06.334555Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public"
+2026-03-09T05:38:06.334732Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public\\fonts"
+2026-03-09T05:38:06.334959Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public\\images"
+2026-03-09T05:38:06.335303Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.335392Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.335663Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.335674Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2026-03-09T05:38:06.337154Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app"
+2026-03-09T05:38:06.337345Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components"
+2026-03-09T05:38:06.337588Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\core"
+2026-03-09T05:38:06.337988Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\app\\components\\ui"
+2026-03-09T05:38:06.338708Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public"
+2026-03-09T05:38:06.338886Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public\\fonts"
+2026-03-09T05:38:06.339138Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\Users\\Mn.t.ez\\vsprojects\\francis-portfolio\\public\\images"
+2026-03-09T05:38:06.339489Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2026-03-09T05:38:06.342893Z  INFO get_globs: tailwindcss_oxide::scanner: exit

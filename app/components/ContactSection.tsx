@@ -1,14 +1,13 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import { useState } from 'react';
 
 export default function ContactSection() {
   const [emailHover, setEmailHover] = useState(false);
   const [instagramHover, setInstagramHover] = useState(false);
   const [twitterHover, setTwitterHover] = useState(false);
-  const [behanceHover, setBehanceHover] = useState(false);
+  const [linkedinHover, setLinkedinHover] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -70,7 +69,7 @@ export default function ContactSection() {
             GET IN
           </motion.span>{' '}
           <motion.span
-            animate={{ color: instagramHover || twitterHover || behanceHover ? '#E5C687' : 'white' }}
+            animate={{ color: instagramHover || twitterHover || linkedinHover ? '#E5C687' : 'white' }}
             transition={{ duration: 0.3 }}
           >
             TOUCH
@@ -201,8 +200,11 @@ export default function ContactSection() {
           </h3>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
+            {/* Instagram Link - Fixed */}
             <motion.a
-              href="#"
+              href="https://www.instagram.com/1_creativedesign?igsh=MTA2ZHp4dHBxcjZucg%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
               onMouseEnter={() => setInstagramHover(true)}
               onMouseLeave={() => setInstagramHover(false)}
               whileHover={{ x: 8 }}
@@ -221,14 +223,15 @@ export default function ContactSection() {
                 textShadow: '0 2px 5px rgba(0,0,0,0.2)',
               }}
             >
-              <Link href="https://www.instagram.com/1_creativedesign?igsh=MTA2ZHp4dHBxcjZucg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
-                <span style={{ fontSize: '1rem', color: '#E5C687' }}>—</span>
-                INSTAGRAM
-              </Link>
+              <span style={{ fontSize: '1rem', color: '#E5C687' }}>—</span>
+              INSTAGRAM
             </motion.a>
 
+            {/* Twitter Link - Fixed with placeholder URL */}
             <motion.a
-              
+              href="https://twitter.com/yourusername"
+              target="_blank"
+              rel="noopener noreferrer"
               onMouseEnter={() => setTwitterHover(true)}
               onMouseLeave={() => setTwitterHover(false)}
               whileHover={{ x: 8 }}
@@ -251,33 +254,31 @@ export default function ContactSection() {
               TWITTER
             </motion.a>
 
-            
-
+            {/* LinkedIn Link - Fixed */}
             <motion.a
-              href="#"
+              href="https://www.linkedin.com/in/francis-charles-15219a3b1"
+              target="_blank"
+              rel="noopener noreferrer"
+              onMouseEnter={() => setLinkedinHover(true)}
+              onMouseLeave={() => setLinkedinHover(false)}
               whileHover={{ x: 8 }}
               transition={{ duration: 0.2 }}
               style={{
                 fontFamily: 'CALID, ui-sans-serif, system-ui',
                 fontSize: '1.6rem',
                 fontWeight: '400',
-                color: '#ffffff',
+                color: linkedinHover ? '#E5C687' : 'white',
                 textDecoration: 'none',
                 cursor: 'pointer',
                 display: 'flex',
                 alignItems: 'center',
                 gap: '1rem',
                 transition: 'color 0.2s ease',
-                opacity: 0.9,
                 textShadow: '0 2px 5px rgba(0,0,0,0.2)',
               }}
-              onMouseEnter={(e) => e.currentTarget.style.color = '#E5C687'}
-              onMouseLeave={(e) => e.currentTarget.style.color = '#ffffff'}
             >
-               <Link href="https://www.linkedin.com/in/francis-charles-15219a3b1" target="_blank" rel="noopener noreferrer">
-                <span style={{ fontSize: '1rem', color: '#E5C687' }}>—</span>
-                LINKEDIN
-              </Link>
+              <span style={{ fontSize: '1rem', color: '#E5C687' }}>—</span>
+              LINKEDIN
             </motion.a>
           </div>
         </motion.div>
@@ -305,8 +306,6 @@ export default function ContactSection() {
           zIndex: 3,
         }}
       >
-        
-        
         <span 
           onClick={scrollToTop} 
           style={{ 

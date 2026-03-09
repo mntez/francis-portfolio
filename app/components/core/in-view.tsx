@@ -5,7 +5,7 @@ import { useRef, ReactNode } from 'react';
 export interface InViewProps extends MotionProps {
   children: ReactNode;
   once?: boolean;
-  margin?: number;
+  margin?: string | number;  // Changed to accept string or number
   amount?: "some" | "all" | number;
   variants?: {
     hidden: any;
@@ -16,7 +16,7 @@ export interface InViewProps extends MotionProps {
 export function InView({ 
   children, 
   once = true,
-  margin = -100,
+  margin = "-100px",  // Changed default to string with px
   amount = "some",
   variants = {
     hidden: { opacity: 0, y: 20 },
@@ -26,9 +26,12 @@ export function InView({
 }: InViewProps) {
   const ref = useRef(null);
   
+  // Convert number to string with px if needed
+  const marginValue = typeof margin === 'number' ? `${margin}px` : margin;
+  
   const viewOptions = {
     once,
-    margin: `${margin}px`,
+    rootMargin: marginValue,  // Changed from 'margin' to 'rootMargin'
     amount,
   };
   
